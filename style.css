@@ -1,0 +1,57 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body {
+    margin: 48px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.header {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.one {
+    background-color: #1F2937;
+}
+
+.two {
+    background-color: white;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
+
+
+#heromain {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#herosec {
+    color:#E5E7EB;
+    font-size: 18px;
+
+}
