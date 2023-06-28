@@ -1,35 +1,39 @@
 * {
     font-family: 'Roboto', sans-serif;
-    
+
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-bottom: 48px;
+
 }
 
-body {
-    margin: 48px;
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    border: #1F2937;
+    flex: 1 1 auto;
+}
+
+.logo {
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    flex: 2 1 auto;
+}
+
+a.nav-link:link {
+    color:#E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    width: 1%;
 }
 
 .box {
     display: flex;
     flex-direction: column;
+    
 }
-
-.alignleft {
-	float: left;
-}
-
-.alignright {
-	float: right;
-}
-
-.header {
-    display: inline-flex;
-    flex-direction: row;
-    background-color: #1F2937;
-    color:#F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-
 
 .one {
     background-color: #1F2937;
@@ -43,6 +47,9 @@ body {
     background-color: #E5E7EB;
 }
 
+.four {
+    background-color: white;
+}
 
 #heromain {
     color:#F9FAF8;
@@ -53,5 +60,12 @@ body {
 #herosec {
     color:#E5E7EB;
     font-size: 18px;
+}
 
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
 }
